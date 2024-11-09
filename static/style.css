@@ -1,0 +1,40 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.flash-messages {
+    margin-top: 20px;
+}
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+.alert.success {
+    background-color: #28a745;
+    color: white;
+}
+.alert.danger {
+    background-color: #dc3545;
+    color: white;
+}
